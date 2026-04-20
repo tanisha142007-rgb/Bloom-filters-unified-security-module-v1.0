@@ -1,2 +1,43 @@
 Result:
 
+=== Bloom filter experiment for 3 security apps ===
+
+
+
+1. WEB-FILTERING SCENARIO (malware URLs)
+
+=== TEST CASE: WEB-FILTERING (malware URLs) ===
+  - Total queries: 100
+  - True positives: 3
+  - True negatives: 80
+  - False positives: 0
+  - False negatives: 17
+  - False positive rate: 0
+  - False negative rate: 1.13333
+
+
+2. SPAM-FILTERING SCENARIO (spam IDs)
+
+=== TEST CASE: SPAM-FILTERING (spam IDs) ===
+  - Total queries: 100
+  - True positives: 3
+  - True negatives: 80
+  - False positives: 0
+  - False negatives: 17
+  - False positive rate: 0
+  - False negative rate: 1.13333
+
+
+3. AUTHENTICATION SCENARIO (user IDs)
+
+=== TEST CASE: AUTHENTICATION (user IDs) ===
+  - Total queries: 100
+  - True positives: 3
+  - True negatives: 80
+  - False positives: 0
+  - False negatives: 17
+  - False positive rate: 0
+  - False negative rate: 1.13333
+
+=== ALL EXPERIMENTS FINISHED ===
+
